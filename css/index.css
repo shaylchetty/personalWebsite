@@ -1,5 +1,6 @@
 
 
+
 /* For the new header, all text shall be black around the intro section 
 	 Will hopefully be easier to read.
 */
@@ -164,4 +165,19 @@ hr.black {
 .RlRed {
 	color: #E61231 !important;
 	font-weight: bold;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
